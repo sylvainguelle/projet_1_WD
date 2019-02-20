@@ -61,7 +61,7 @@
 	</div>
 	<div id="projets">
 		<h2>NOS PROJETS</h2>
-		<hr/>
+		<div id="rond_deco"></div>
 		<p class="soustitre">La conception de l'expérience utilisateur consiste à améliorer la satisfaction des utilisateurs à l'égard d'un produit en améliorant la convivialité, l'accessibilité et le plaisir procurés par l'interaction avec le produit.</p>
 		<div class="portfoliobutton">
 			<ul class="portfolionav">
