@@ -189,7 +189,7 @@ justify-content : flex-end;
 }
 
 .bloc-img{
-/*flex:1 ;*/
+flex:1 ;
 }
 
 .bloc_services img{
@@ -220,7 +220,7 @@ display: flex ;
 
 .container-icone{
 background-color: none;
-margin: auto 50px;
+margin: auto 25px;
 }
 
 .icone{
@@ -322,7 +322,7 @@ color: #777777;
 border-radius: 0 10px 10px 0 ;
 border-bottom: 4px inset #d1d1d1 ;
 }
-
+/*contact------------------------------------------------------------*/
 #contact{
 padding-top: 130px;
 position: relative;
@@ -358,7 +358,9 @@ height: 6em;}
 	
 @media only screen and (max-width:825px){
 /* Navbar--------------------------------------------------------*/
-
+.spacer{
+display: none;
+}
 nav {
 position:relative; 
 display: flex;
@@ -370,15 +372,18 @@ top: 0;
 }
 	
 nav img {
-height: 70px ;
+/*height: 70px ;*/
 margin: auto;
+padding: 10px;
 }
+
+
 
 nav a {
 display: block;
-/*background-color: green;*/
+border-bottom: 1px solid grey ;
 text-decoration: none;
-width: 100% ;
+width:100% ;
 padding : 5px 10px ;
 position: relative;
 color: black;
@@ -391,7 +396,7 @@ transition: background-color .5s ease-in-out ;
 }
 
 nav a:hover::before {
-width:4px;
+width:8px;
 height: 100%;
 background-color: #5cadd3 ;
 position: absolute;
@@ -416,10 +421,12 @@ width: 25px;
 
 .leftbutton::after {
 right: 2px;
+font-size: 10px;
 }
 
 .rightbutton::after {
 left: 2px;
+font-size: 10px;
 }
 .slidertext{
 left: 15px ;
