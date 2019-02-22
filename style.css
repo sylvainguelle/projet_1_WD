@@ -313,7 +313,8 @@ flex-wrap : wrap ;
 }
 
 .portfolioimg img{
-width: 23.2%;
+width: 300px;
+height: 200px;
 padding: 10px;
 }
 
@@ -474,6 +475,58 @@ margin: 0 0;
 padding: 15px ;
 margin: 0 ;
 }
-/*portfolio-------------------------------------------------------------*/
+
+/*----portfolio----------------------------*/
+#projets{
+padding-top: 20px;
+}
+
+.portfolio-button{
+padding: 5px 5px ;
+font-size: 20px;
+}
+
+.portfolioimg img{
+width: 120px;
+height: 80px;
+}
+
+
+/*contact------------------------------------------------------------*/
+#contact{
+padding-top: 20px;
+position: relative;
+}
+
+.mapgoogle {
+width: 99% ;
+padding-left : auto;
+padding-right: auto;
+height: 300px;
+margin: 0;
+}
+
+.filtrebleu {
+content: '';
+width: 99% ;
+height: 300px ;
+position: absolute;
+top: 0;
+left: 0 ;
+background: rgba(98, 197, 212, 0.2);
+pointer-events:none;
+margin-top: 20px}
+
+form{
+position: relative;
+background: rgba(155, 155, 155, 0.8);
+left: 0;
+top: 0;
+padding: 5px;
+margin: 0;
+}
+
+.champsmessage{
+height: 6em;}
 
 }
