@@ -67,9 +67,9 @@ width: 100%;
 }
 
 .circle {
-background-color: rgba(255, 255, 255, 0.5);
-height: 50px;
-width: 50px;
+background-color: rgba(25, 25, 25, 0.5);
+height: 75px;
+width: 75px;
 border-radius: 99999px;
 position: absolute;
 top: 50%;
@@ -81,27 +81,34 @@ transform: translate(-50%, -50%);
 }
 
 .leftbutton::after {
-content: '<';
+font-family: FontAwesome ;
+content: '\f053';
 position: absolute;
 top: 50%;
-right: 10px;
+right: 20%;
 transform: translateY(-50%);
+color: white;
+font-size: 25px;
 }
+
 .rightbutton {
 right: 0;
 transform: translate(50%, -50%);
 }
 
 .rightbutton::after {
-content: '>';
+font-family: FontAwesome;
+content: '\f054';
 position: absolute;
 top: 50%;
-left: 10px;
+left: 20%;
 transform: translateY(-50%);
+color: white;
+font-size: 25px;
 }
 .slidertext{
 position: absolute;
-top: 50%;
+top: 45%;
 transform: translateY(-50%);
 left: 170px ;
 }
@@ -113,6 +120,8 @@ background-color: transparent;
 
 .slidertext p{
 color: white;
+font-size: 16px;
+margin: 15px 0;
 }
 
 .slidertext h3 {
@@ -120,6 +129,8 @@ font-size: 35px;
 letter-spacing: -1px;
 color: white;
 margin: 0;
+line-height: 100%;
+font-style: black ;
 }
 
 .infobutton{
@@ -296,26 +307,55 @@ transform: translate(-50% , 50%) rotateZ(45deg);
 z-index: -1;
 }
 
-.portfolioimg{
-position: relative;
-width: 100%;
-margin: auto;
-display: flex ;
-flex-wrap : wrap ;
-justify-content : center ;
-}
 .centrage-portfolio{
+margin : auto ;
 display: flex ;
-justify-content : flex-start ;
-width: 90%;
-margin: auto;
-flex-wrap : wrap ;
+flex-wrap: wrap ;
+align-items: flex-start;
 }
 
-.portfolioimg img{
-width: 300px;
-height: 200px;
-padding: 10px;
+.container-portfolio {
+position: relative;
+width: 22%;
+margin: 15px;
+}
+
+.image-porfolio {
+width: 100%;
+height: auto;
+}
+
+.portfolio-p{
+padding-left: 15px;
+}
+
+.icone-porfolio{
+position: absolute;
+transform: translateY(-50%);
+border-radius: 9999px;
+background-color: #5cadd3;
+border: 2px solid white ;
+right: 10px;
+padding: 14px 12px ;
+top: 0;
+}
+
+.overlay {
+position: absolute;
+bottom: 6px;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); 
+color: white;
+width: 100%;
+transition: .5s ease;
+opacity:0;
+font-size: 20px;
+height: 33%;
+text-align: left;
+}
+
+.container-portfolio:hover .overlay {
+  opacity: 1;
 }
 
 /*contact------------------------------------------------------------*/
@@ -491,7 +531,9 @@ width: 120px;
 height: 80px;
 }
 
-
+.overlay {
+display: none;
+}
 /*contact------------------------------------------------------------*/
 #contact{
 padding-top: 20px;
@@ -499,23 +541,12 @@ position: relative;
 }
 
 .mapgoogle {
-width: 99% ;
-padding-left : auto;
-padding-right: auto;
-height: 300px;
-margin: 0;
+display: none;
 }
 
 .filtrebleu {
-content: '';
-width: 99% ;
-height: 300px ;
-position: absolute;
-top: 0;
-left: 0 ;
-background: rgba(98, 197, 212, 0.2);
-pointer-events:none;
-margin-top: 20px}
+display: none;
+}
 
 form{
 position: relative;
