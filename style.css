@@ -32,6 +32,7 @@ text-decoration: none;
 padding: 35px 25px ;
 position: relative;
 color: #707070;
+font-size: 18px;
 }
 
 nav a::before {
@@ -278,11 +279,13 @@ background-color: #d1d1d1;
 padding: 10px 15px ;
 text-decoration: none;
 color: #606060 ;
+border-bottom: 5px solid #d1d1d1 ;
 }
 
 .portfolio-button:hover{
 background-color: #5cadd3 ;
-color:white; 
+color:white;
+border-bottom: 5px solid #5097b7 ;
 }
 
 .left{
@@ -297,7 +300,7 @@ border-radius: 0 10px 10px 0;
 background-color: #5cadd3 ;
 color:white;}
 
-.active::after{
+.portfolio-button:hover::after{
 content: '';
 width: 20px;
 height: 20px;
@@ -309,16 +312,17 @@ transform: translate(-50% , 50%) rotateZ(45deg);
 z-index: -1;
 }
 
-.centrage-portfolio{
+.portfolioimg{
 margin : auto ;
 display: flex ;
 flex-wrap: wrap ;
 align-items: flex-start;
+width: 100%;
 }
 
 .container-portfolio {
 position: relative;
-width: 22%;
+width: calc(25% - 30px);
 margin: 15px;
 }
 
@@ -328,7 +332,8 @@ height: auto;
 }
 
 .portfolio-p{
-padding-left: 15px;
+margin: 2px;
+padding: 0;
 }
 
 .icone-porfolio{
@@ -393,12 +398,22 @@ padding: 15px;
 
 .champsmessage{
 height: 6em;}
+
+@media all and (min-width: 960px) and (max-width: 1199px) {
+.container-portfolio {
+position: relative;
+width: calc(50% - 50px);
+margin: 25px ;
+}
+}
 	
-@media only screen and (max-width:825px){
-/* Navbar--------------------------------------------------------*/
+@media all and (max-width: 959px) {
+
+
 .spacer{
 display: none;
 }
+
 nav {
 position:relative; 
 display: flex;
@@ -419,13 +434,12 @@ padding: 10px;
 
 nav a {
 display: block;
-border-bottom: 1px solid grey ;
 text-decoration: none;
 width:100% ;
-padding : 5px 10px ;
+padding : 2px ;
 position: relative;
-color: black;
 font-size: 16px ;
+text-align: center;
 }
 
 nav a::before {
@@ -434,7 +448,7 @@ transition: background-color .5s ease-in-out ;
 }
 
 nav a:hover::before {
-width:8px;
+width:10px;
 height: 100%;
 background-color: #5cadd3 ;
 position: absolute;
@@ -451,7 +465,7 @@ margin-right: 0 ;
 #accueil{
 margin-top: 0px;
 }
-	
+
 .circle {
 height: 25px;
 width: 25px;
@@ -490,7 +504,8 @@ padding-top: 20px;
 
 
 .soustitre{
-width: 100%;
+width: 90%;
+margin: auto;
 }
 
 .bloc_services{
@@ -525,16 +540,13 @@ padding-top: 20px;
 
 .portfolio-button{
 padding: 5px 5px ;
-font-size: 20px;
+font-size: 18px;
 }
 
-.portfolioimg img{
-width: 120px;
-height: 80px;
-}
-
-.overlay {
-display: none;
+.container-portfolio {
+position: relative;
+width: calc(100% - 50px);
+margin: 25px ;
 }
 /*contact------------------------------------------------------------*/
 #contact{
