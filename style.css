@@ -31,7 +31,7 @@ display: block;
 text-decoration: none;
 padding: 35px 25px ;
 position: relative;
-color: black;
+color: #707070;
 }
 
 nav a::before {
@@ -48,6 +48,9 @@ top: 0 ;
 left: -50% ;
 transform : translateX(50%);
 }
+
+nav a:hover{
+color: black;}
 
 nav a:last-child{
 margin-right: 10% ;
