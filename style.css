@@ -67,7 +67,26 @@ overflow: hidden;
 }
 	
 #accueil img{
+position: relative;
 width: 100%;
+}
+
+.barre-defilement{
+position: absolute;
+height: 4px;
+width: 100%;
+bottom: 6px;
+background-color: rgba(25, 25, 25, 0.5);
+}
+
+.barre-defilement::after{
+content: '';
+position: absolute;
+height: 4px;
+width: 10%;
+bottom: 0px;
+left: 0;
+background-color:#5cadd3;
 }
 
 .circle {
