@@ -103,15 +103,13 @@ left: 0;
 transform: translate(-50%, -50%);
 }
 
-.leftbutton::after {
-font-family: FontAwesome ;
-content: '\f053';
+.leftbutton i{
 position: absolute;
 top: 50%;
 right: 20%;
 transform: translateY(-50%);
 color: white;
-font-size: 25px;
+font-size: 35px;
 }
 
 .rightbutton {
@@ -119,15 +117,13 @@ right: 0;
 transform: translate(50%, -50%);
 }
 
-.rightbutton::after {
-font-family: FontAwesome;
-content: '\f054';
+.rightbutton i{
 position: absolute;
 top: 50%;
 left: 20%;
 transform: translateY(-50%);
 color: white;
-font-size: 25px;
+font-size: 35px;
 }
 .slidertext{
 position: absolute;
