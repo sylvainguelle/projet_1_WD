@@ -394,6 +394,10 @@ padding-top: 130px;
 position: relative;
 }
 
+#contact p{
+color: #4f4f4f;
+}
+
 .mapgoogle {
 width: 99.7% ;
 padding-left : auto;
@@ -427,6 +431,7 @@ border-radius: 5px;
 border: 1px solid #b5b5b5 ;
 color: #757575 ;
 width: 95% ;
+font-size: 15px;
 }
 
 @media all and (min-width: 760px) and (max-width: 1199px) {
