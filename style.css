@@ -171,6 +171,9 @@ left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
 }
+.hr-mobile{
+display: none;
+}
 .soustitre{
 width: 60%;
 max-width: 860px;
@@ -408,7 +411,7 @@ margin-right: 0 ;
 margin-top: 0px;
 position: relative;
 width: 100%;
-height: 180px;
+height: 220px;
 }
 .carrousel{
 display: none;
@@ -438,7 +441,13 @@ margin: auto;
 }
 /*services-------------------------------------------------------------*/
 #services{
-padding-top: 0px;
+padding-top: 20px;
+}
+.hr-mobile{
+display: block;
+}
+.hr-desktop{
+display: none;
 }
 .soustitre{
 width: 90%;
@@ -465,7 +474,7 @@ margin: 0 ;
 }
 /*----portfolio----------------------------*/
 #projets{
-padding-top: 20px;
+padding-top: 40px;
 }
 .portfolio-button{
 padding: 5px 5px ;
@@ -495,7 +504,7 @@ top: 0;
 width: 90%;
 margin: auto;
 }
-#contact p,h3{
+#contact p{
 color: white;
 }
 }
