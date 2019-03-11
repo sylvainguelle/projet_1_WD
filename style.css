@@ -376,6 +376,7 @@ position: relative;
 width: calc(50% - 50px);
 margin: 25px ;
 }
+
 }
 @media all and (max-width: 759px) {
 .spacer{
@@ -392,7 +393,7 @@ padding: 10px;
 }
 nav a {
 width:100% ;
-padding : 2px ;
+padding : 10px 0px ;
 font-size: 16px ;
 text-align: center;
 }
