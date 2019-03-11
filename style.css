@@ -376,7 +376,25 @@ position: relative;
 width: calc(50% - 50px);
 margin: 25px ;
 }
-
+.bloc_services{
+flex-direction : column ;
+}
+.container-text-service{
+width: 100%;
+}
+.bloc_services p{
+font-size: 14px ;
+color: #777777 ;
+padding-right: 15px;
+}
+.bloc_services img{
+width: 100%;
+margin: 0 0;
+}
+.icone{
+padding: 15px ;
+margin: 0 ;
+}
 }
 @media all and (max-width: 759px) {
 .spacer{
