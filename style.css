@@ -363,10 +363,11 @@ right: 15%;
 top: 25%;
 padding: 15px;
 width: 25%;
+max-width: 380px;
 }
 textarea,input{
 padding: 5px ;
-margin: 5px auto;
+margin: 10px auto;
 border-radius: 5px;
 border: 1px solid #b5b5b5 ;
 color: #757575 ;
