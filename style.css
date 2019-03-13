@@ -516,6 +516,9 @@ margin: 0 ;
 #projets{
 padding-top: 40px;
 }
+.portfolio-nav{
+margin: 30px auto;
+}
 .portfolio-button{
 padding: 5px 5px ;
 font-size: 18px;
