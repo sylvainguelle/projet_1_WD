@@ -252,7 +252,7 @@ clear: both;
 .portfolio-nav{
 display: flex;
 justify-content: center ;
-margin: 20px 0;
+margin: 60px auto;
 }
 .portfolio-button{
 position: relative;
@@ -294,7 +294,7 @@ margin : auto ;
 display: flex ;
 flex-wrap: wrap ;
 align-items: flex-start;
-width: 100%;
+width: 91%;
 }
 .container-portfolio {
 position: relative;
