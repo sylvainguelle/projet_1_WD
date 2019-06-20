@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>La Web Agency</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet'>
+</head>
+<body>
+<header>
+	<nav>
+		<img class="logo-full" src="img/logo.png" alt="La webagency">
+		<img class="logo-mini" src="img/logo_mini.png" alt="La webagency">
+		<div class="spacer"></div>
+		<a href="#">Accueil</a>
+		<a href="#services">Services</a>
+		<a href="#projets">Portfolio</a>
+		<a href="#contact">Contact</a>
+	</nav>
+</header>
+<section id="accueil" >
+		<hr class="hr-mobile"/>
+		<div class="carrousel">
+			<img src="img/slider/bg1.jpg" alt="Illustration accueil">
+			<div class="barre-defilement"></div>
+			<div class="circle leftbutton"><i class="fas fa-chevron-left"></i></div>
+			<div class="circle rightbutton"><i class="fas fa-chevron-right"></i></div>
+		</div>
+		<article class="slidertext">
+			<h3><mark>WEBAGENCY</mark> :L'AGENCE DE TOUS<br>VOS PROJETS !</h3>
+			<p class="slidertext2">Vous avez un projet web ? La WebAgency vous aide à le réaliser !</p>
+			<button class="infobutton">Plus d'info</button>
+		</article>		
+</section>
+<section id="services">
+		<hr class="hr-mobile"/>
+		<h2>NOS SERVICES</h2>
+		<hr class="hr-desktop"/>
+		<p class="soustitre">Quelles que soient vos envies, vos besoins, la taille de votre entreprise ou votre secteur d'activité, nous saurons vous accompagner avec nos équipes.</p>
+		<div class="bloc_services">
+		<div class="bloc-img"><img src="img/main-feature.png" alt="img_main_feature"></div>
+		<div class="container-text-service">
+			<article class="bloc-text-service">
+				<div class="container-icone"><i class="fas fa-chart-line fa-2x icone"></i></div>
+				<div class="bloc-text">
+				<h3>UX design</h3>
+				<p>Notre principale objectif lors de nos conceptions est de permettre une expérience utilisateur la plus agréable possible</p>
+				</div>
+			</article>
+			<article class="bloc-text-service">
+				<div class="container-icone"><i class="fas fa-cubes fa-2x icone"></i></div>
+				<div class="bloc-text">
+				<h3>UI design</h3>
+				<p>Nos interfaces utilisateurs sont étudiées pour offrir une navigation fluide et claire à vos visiteurs. Nos sites sont responsive aux affichages mobiles et tablettes</p>
+				</div>
+			</article>
+			<article class="bloc-text-service">
+				<div class="container-icone"><i class="fas fa-chart-pie fa-2x icone"></i></div>
+				<div class="bloc-text">				
+				<h3>SEO</h3>
+				<p>Nos spécialistes en référencement vous permettront une visibilité sans failles sur le web</p>
+				</div>
+			</article>
+		</div>
+		</div>
+</section>
+<section id="projets">
+		<hr class="hr-mobile"/>
+		<h2>NOS PROJETS</h2>
+		<hr class="hr-desktop"/>
+		<p class="soustitre">Découvrez dans notre galerie ci dessous une sélection de nos réalisations, du plus simple site web vitrine au site complet d'e-commerce</p>
+		<div class="portfolio-nav">
+			<a class="portfolio-button left " href="#projets">All works</a>
+			<a class="portfolio-button" href="#projets">Creative</a>
+			<a class="portfolio-button" href="#projets">Corporate</a>
+			<a class="portfolio-button right" href="#projets">Portfolio</a>
+		</div>
+		<div class="portfolioimg">
+	<article class="container-portfolio">
+		<img src="img/portfolio/01.jpg" alt="Optique 3000" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>Optique 3000</strong><br>Opticien</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/02.jpg" alt="Le lapin" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>Le lapin</strong><br>Événementiel</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/03.jpg" alt="Pompadour" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>Pompadour</strong><br>Magasin de chaussures</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/04.jpg" alt="Brand Peace" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>Brand Peace</strong><br>Agence graphiste</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/05.jpg" alt="Bag in Box" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>Bag in box</strong><br>Création emballage et sac</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/06.jpg" alt="EzTravel" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>EzTravel</strong><br>Agence de voyage</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/07.jpg" alt="ASAN Agence spaciale" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>ASAN</strong><br>Agence spaciale</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	<article class="container-portfolio">
+		<img src="img/portfolio/08.jpg" alt="Be Theme" class="image-porfolio">
+		<div class="overlay">
+			<p class="portfolio-p"><strong>Be Theme</strong><br>Fourniture de bureau</p>
+			<i class="fas fa-eye fa-1x icone-porfolio"></i>
+		</div>
+	</article>
+	</div>
+</section>
+<footer id="contact">
+		<iframe class="mapgoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2216096807224!2d2.347636915674888!3d48.87305177928887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1550143322965" allowfullscreen></iframe>
+		<div class="filtrebleu"></div>
+		<form>
+			<h3>Contact Info</h3>
+			<p><strong>WebAgency SAS</strong><br>25 rue d'Hauteville 75010 Paris<br><abbr title="Téléphone">Tel :</abbr> 01 02 03 04 05</p>
+			<input placeholder="Nom"/>
+			<input placeholder="Email"/>
+			<input placeholder="Sujet"/>
+			<textarea placeholder="Message" rows="8" ></textarea>
+			<button class="infobutton">Envoyer Message</button>
+		</form>
+</footer>
+</body>
+</html>
